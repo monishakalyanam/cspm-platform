@@ -1,5 +1,5 @@
 // All communication with the backend goes through this file.
-const BASE = import.meta.env.VITE_API_URL || '/api';
+const BASE = 'https://cspm-platform.onrender.com/api';
 const TOKEN_KEY = 'cspm_token';
 
 export const tokenStore = {
